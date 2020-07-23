@@ -1,0 +1,8 @@
+<div *ngFor="let p of production">
+  {{p.name}}
+  <div >
+    <p>{{p.label}}</p>
+    <span>{{p.price}}</span>
+    <button (click)="AddToCart($event)">add to card</button>
+  </div>
+</div>
